@@ -1,0 +1,6 @@
+malumot = input().strip()
+qismlar = malumot.split(",")
+ism = qismlar[0].strip()
+yosh = qismlar[1].strip()
+print(f"Name: {ism}")
+print(f"Age: {yosh}")
